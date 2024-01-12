@@ -12,9 +12,12 @@
   "dependencies": {
     "@nuxtjs/auth": "^4.9.1",
     "@nuxtjs/axios": "^5.12.2",
+    "axios": "^1.6.5",
     "dotenv": "^8.2.0",
+    "fs": "^0.0.1-security",
     "normalize.css": "^8.0.1",
-    "nuxt-start": "^2.14.3"
+    "nuxt-start": "^2.14.3",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "nuxt": "^2.14.3"

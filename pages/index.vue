@@ -2,7 +2,7 @@
   <div>
     <super-secret-div v-if="$auth.loggedIn"/>
     <div class="content">
-      <h1>Hello, {{ $auth.loggedIn ? $auth.user.username : 'friend' }}!</h1>
+      <h1>Hello, {{ $auth.loggedIn ? $auth.user.name : 'friend' }}!</h1>
       <p>
         This is a super simple example of how to use <a href="https://nuxtjs.org" target="_blank">Nuxt.js</a> and <a href="https://auth0.com" target="_blank">Auth0</a> together.
       </p>

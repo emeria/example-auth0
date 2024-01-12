@@ -7,6 +7,9 @@
 </template>
 
 <script>
+
+import SuperSecretDiv from '~/components/SuperSecretDiv'
+
 export default {
   middleware: 'auth',
   computed: {

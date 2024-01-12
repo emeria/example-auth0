@@ -1,0 +1,44 @@
+[
+    {
+        "created_at": "2023-05-31T20:36:41.364Z",
+        "email": "uw-test-02@lxp.huit.harvard.edu",
+        "email_verified": false,
+        "identities": [
+            {
+                "connection": "lxp-dev-hub-user-db",
+                "provider": "auth0",
+                "user_id": "6477afd9a4c0a02ceaa0090a",
+                "isSocial": false
+            }
+        ],
+        "name": "uw-test-02@lxp.huit.harvard.edu",
+        "nickname": "uw-test-02",
+        "picture": "https://s.gravatar.com/avatar/7cc082f096c8a41842b679bc921e3bad?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fuw.png",
+        "updated_at": "2024-01-09T19:53:53.470Z",
+        "user_id": "auth0|6477afd9a4c0a02ceaa0090a",
+        "last_login": "2024-01-09T19:53:53.470Z",
+        "last_ip": "2607:fb60:1f20:72::1004",
+        "logins_count": 35
+    },
+    {
+        "created_at": "2023-05-31T20:36:09.666Z",
+        "email": "uw-test-01@lxp.huit.harvard.edu",
+        "email_verified": false,
+        "identities": [
+            {
+                "connection": "lxp-dev-hub-user-db",
+                "provider": "auth0",
+                "user_id": "6477afb9d3811cb4d981b506",
+                "isSocial": false
+            }
+        ],
+        "name": "uw-test-01@lxp.huit.harvard.edu",
+        "nickname": "uw-test-01",
+        "picture": "https://s.gravatar.com/avatar/ea63438a69fbbbccd47c31c0fb90cd3f?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fuw.png",
+        "updated_at": "2024-01-09T16:23:03.370Z",
+        "user_id": "auth0|6477afb9d3811cb4d981b506",
+        "last_login": "2024-01-09T16:23:03.369Z",
+        "last_ip": "2607:fb60:1f20:72::1001",
+        "logins_count": 106
+    }
+]

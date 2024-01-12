@@ -47,5 +47,15 @@ export default {
   build: {
     // For stormkit.io
     publicPath: process.env.PUBLIC_PATH,
+      transpile: [({ isLegacy }) => isLegacy && 'axios']
+  },
+  axios: {
+    proxy: true
+  },
+  proxy: {
+    '/api/': {
+      target: 'http://localhost:3000', // Replace with your server URL
+      pathRewrite: { '^/api/': '/' }
+    }
   }
 }
